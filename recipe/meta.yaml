@@ -1,5 +1,5 @@
 {% set name = "lightapi" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/iklobato/LightAPI/archive/{{ version }}.tar.gz
-  sha256: c6ca8849e37b7b28d7e279873397ea09639d3e48af60dc670c32c20087c5e98c
+  url: https://github.com/iklobato/LightAPI/archive/v{{ version }}.tar.gz
+  sha256: 9be0dd1895b364c34d8d328b67e25e78a8cfe82ad9667772ca95d9464a85ec3c
 
 build:
   noarch: python
