@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: lightapi
-  version: "0.1.9"
+  version: "0.1.10"
   python_min: '3.11'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://github.com/iklobato/LightAPI/archive/v${{ version }}.tar.gz
-  sha256: 329ac8457fd694bc5adabd6979a6fd77c39b6fca063563d4acbb5f9021a27786
+  sha256: ea33f544c647afa48ed1852a5d79fc817a90876d1f60f8ce5c38044f8c945ee5
 
 build:
   number: 0
